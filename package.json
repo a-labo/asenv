@@ -1,6 +1,6 @@
 {
   "name": "asenv",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "NODE_ENV accessor",
   "main": "lib",
   "browser": "shim/browser",
