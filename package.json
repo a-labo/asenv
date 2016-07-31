@@ -1,6 +1,6 @@
 {
   "name": "asenv",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "NODE_ENV accessor",
   "main": "lib",
   "scripts": {
