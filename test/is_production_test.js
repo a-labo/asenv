@@ -22,6 +22,8 @@ describe('is-production', function () {
   it('Is production', () => co(function * () {
     process.env.NODE_ENV = 'production'
     assert.ok(isProduction())
+    process.env.NODE_ENV = 'test'
+    assert.ok(!isProduction())
   }))
 })
 

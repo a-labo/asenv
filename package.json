@@ -28,7 +28,7 @@
   "devDependencies": {
     "ababel": "^1.0.25",
     "ababel-es2015": "^1.0.5",
-    "amocha": "^1.0.10",
+    "amocha": "^1.0.11",
     "ape-formatting": "^1.0.2",
     "ape-releasing": "^4.0.4",
     "ape-reporting": "^3.0.2",
