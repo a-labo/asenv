@@ -1,6 +1,6 @@
 {
   "name": "asenv",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "NODE_ENV accessor",
   "main": "lib",
   "browser": "shim/browser",
@@ -28,14 +28,14 @@
   "devDependencies": {
     "ababel": "^1.0.25",
     "ababel-es2015": "^1.0.5",
-    "amocha": "^1.0.11",
+    "amocha": "^1.0.13",
     "ape-formatting": "^1.0.2",
     "ape-releasing": "^4.0.4",
     "ape-reporting": "^3.0.2",
     "ape-tasking": "^4.0.8",
     "ape-tmpl": "^5.0.15",
     "ape-updating": "^4.0.5",
-    "coz": "^6.0.16",
+    "coz": "^6.0.17",
     "injectmock": "^2.0.0"
   },
   "engines": {
