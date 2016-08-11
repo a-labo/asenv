@@ -98,6 +98,26 @@ const { getEnv, setEnv, isProduction } = require('asenv')
 
 <!-- Section from "doc/guides/02.Usage.md.hbs" End -->
 
+<!-- Section from "doc/guides/03.Functions.md.hbs" Start -->
+
+<a name="section-doc-guides-03-functions-md"></a>
+
+Functions
+---------
+
+Available functions
+
+| Signature | Description |
+| ---- | ----------- |
+| `.getEnv()() -> ?string` | Get NODE_ENV value |
+| `.isDevelopment() -> boolean` | Check if the env it development |
+| `.isProduction() -> boolean` | Check if the env is production |
+| `.isTest() -> boolean` | Check if the env is test |
+| `.setEnv()(env)` | Set NODE_ENV value |
+
+
+<!-- Section from "doc/guides/03.Functions.md.hbs" End -->
+
 
 <!-- Sections Start -->
 
@@ -118,6 +138,8 @@ This software is released under the [MIT License](https://github.com/a-labo/asen
 Links
 ------
 
++ [a-labo][a_labo_url]
 
+[a_labo_url]: https://github.com/a-labo
 
 <!-- Links End -->
