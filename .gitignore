@@ -30,4 +30,5 @@ node_modules
 .idea
 tmp
 
+shim/node
 shim/browser

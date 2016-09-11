@@ -2,11 +2,11 @@
   "name": "asenv",
   "version": "1.0.7",
   "description": "NODE_ENV accessor",
-  "main": "lib",
+  "main": "shim/node",
   "browser": "shim/browser",
   "scripts": {
-    "test": "./ci/test.js",
-    "prepublish": "./ci/build.js && ./ci/browser.js"
+    "test": "node ./ci/test.js",
+    "prepublish": "node ./ci/build.js && node ./ci/shim.js"
   },
   "repository": "a-labo/asenv",
   "keywords": [
@@ -23,6 +23,7 @@
   },
   "homepage": "https://github.com/a-labo/asenv#readme",
   "dependencies": {
+    "babel-runtime": "^6.11.6",
     "co": "^4.6.0"
   },
   "devDependencies": {
@@ -41,7 +42,7 @@
     "injectmock": "^2.0.0"
   },
   "engines": {
-    "node": ">=6",
-    "npm": ">=3"
+    "node": ">=4",
+    "npm": ">=2"
   }
 }
