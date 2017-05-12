@@ -114,6 +114,7 @@ Available functions
 | `.isProduction() -> boolean` | Check if the env is production |
 | `.isTest() -> boolean` | Check if the env is test |
 | `.setEnv()(env)` | Set NODE_ENV value |
+| `.unlessProduction(handler)` | Do unless production |
 
 
 <!-- Section from "doc/guides/03.Functions.md.hbs" End -->
