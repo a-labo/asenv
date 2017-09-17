@@ -6,25 +6,25 @@
 
 const isProduction = require('../lib/is_production.js')
 const assert = require('assert')
-const co = require('co')
+
 
 describe('is-production', function () {
   this.timeout(3000)
 
-  before(() => co(function * () {
+  before(async () => {
 
-  }))
+  })
 
-  after(() => co(function * () {
+  after(async () => {
 
-  }))
+  })
 
-  it('Is production', () => co(function * () {
+  it('Is production', async () => {
     process.env.NODE_ENV = 'production'
     assert.ok(isProduction())
     process.env.NODE_ENV = 'test'
     assert.ok(!isProduction())
-  }))
+  })
 })
 
 /* global describe, before, after, it */

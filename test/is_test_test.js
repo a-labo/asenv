@@ -6,23 +6,23 @@
 
 const isTest = require('../lib/is_test.js')
 const assert = require('assert')
-const co = require('co')
+
 
 describe('is-test', function () {
   this.timeout(3000)
 
-  before(() => co(function * () {
+  before(async () => {
 
-  }))
+  })
 
-  after(() => co(function * () {
+  after(async () => {
 
-  }))
+  })
 
-  it('Is test', () => co(function * () {
+  it('Is test', async () => {
     process.env.NODE_ENV = 'test'
     assert.ok(isTest())
-  }))
+  })
 })
 
 /* global describe, before, after, it */

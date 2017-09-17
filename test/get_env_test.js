@@ -6,22 +6,22 @@
 
 const getEnv = require('../lib/get_env.js')
 const assert = require('assert')
-const co = require('co')
+
 
 describe('get-env', function () {
   this.timeout(3000)
 
-  before(() => co(function * () {
-  }))
+  before(async () => {
+  })
 
-  after(() => co(function * () {
+  after(async () => {
 
-  }))
+  })
 
-  it('Get env', () => co(function * () {
+  it('Get env', async () => {
     process.env.NODE_ENV = 'fuge'
     assert.equal(getEnv(), 'fuge')
-  }))
+  })
 })
 
 /* global describe, before, after, it */
