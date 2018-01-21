@@ -1,9 +1,9 @@
 {
   "name": "asenv",
-  "version": "2.0.1",
+  "version": "2.0.3",
   "description": "NODE_ENV accessor",
   "main": "lib",
-  "browser": "shim/browser",
+  "browser": "shim",
   "scripts": {
     "test": "node ./ci/test.js",
     "prepare": "node ./ci/build.js && node ./ci/shim.js"
@@ -24,16 +24,16 @@
   "homepage": "https://github.com/a-labo/asenv#readme",
   "dependencies": {},
   "devDependencies": {
-    "ababel": "^2.0.1",
+    "ababel": "^4.0.6",
     "ababel-es2015": "^2.0.1",
-    "aglob": "^2.0.1",
-    "amocha": "^2.0.0",
+    "aglob": "^3.0.0",
+    "amocha": "^4.0.0",
     "ape-doc": "^2.0.4",
     "ape-formatting": "^1.0.2",
     "ape-releasing": "^4.0.4",
     "ape-reporting": "^3.0.2",
     "ape-tasking": "^4.0.9",
-    "ape-tmpl": "^6.0.0",
+    "ape-tmpl": "^6.0.8",
     "ape-updating": "^4.1.1",
     "coz": "^6.0.20",
     "injectmock": "^2.0.0"

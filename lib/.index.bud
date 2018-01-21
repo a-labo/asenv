@@ -1,0 +1,25 @@
+/**
+ * Bud file for index.js
+ */
+
+'use strict'
+
+const {indexJsBud} = require('ape-tmpl')
+const {description, name} = require('../package.json')
+
+module.exports = [
+  true,
+  false
+].map((mjs) => ({
+  ...indexJsBud({
+    desc: description,
+    module: name,
+    dirname: __dirname,
+    mjs,
+  }),
+  path: mjs ? 'index.mjs' : 'index.js'
+}))
+
+if (!module.parent) {
+  require('coz').render(__filename)
+}

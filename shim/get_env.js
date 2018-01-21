@@ -1,0 +1,14 @@
+/**
+ * Get NODE_ENV value
+ * @function getEnv()
+ * @returns {?string} - Env value
+ */
+'use strict';
+/** @lends getEnv */
+
+function getEnv() {
+  return process.env.NODE_ENV;
+}
+
+module.exports = getEnv;
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImdldF9lbnYuanMiXSwibmFtZXMiOlsiZ2V0RW52IiwicHJvY2VzcyIsImVudiIsIk5PREVfRU5WIiwibW9kdWxlIiwiZXhwb3J0cyJdLCJtYXBwaW5ncyI6IkFBQUE7Ozs7O0FBS0E7QUFFQTs7QUFDQSxTQUFTQSxNQUFULEdBQW1CO0FBQ2pCLFNBQU9DLFFBQVFDLEdBQVIsQ0FBWUMsUUFBbkI7QUFDRDs7QUFFREMsT0FBT0MsT0FBUCxHQUFpQkwsTUFBakIiLCJmaWxlIjoiZ2V0X2Vudi5qcyIsInNvdXJjZVJvb3QiOiIuLi9saWIiLCJzb3VyY2VzQ29udGVudCI6WyIvKipcbiAqIEdldCBOT0RFX0VOViB2YWx1ZVxuICogQGZ1bmN0aW9uIGdldEVudigpXG4gKiBAcmV0dXJucyB7P3N0cmluZ30gLSBFbnYgdmFsdWVcbiAqL1xuJ3VzZSBzdHJpY3QnXG5cbi8qKiBAbGVuZHMgZ2V0RW52ICovXG5mdW5jdGlvbiBnZXRFbnYgKCkge1xuICByZXR1cm4gcHJvY2Vzcy5lbnYuTk9ERV9FTlZcbn1cblxubW9kdWxlLmV4cG9ydHMgPSBnZXRFbnZcbiJdfQ==
